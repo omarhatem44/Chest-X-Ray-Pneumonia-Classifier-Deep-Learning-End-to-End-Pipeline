@@ -80,5 +80,40 @@ Saves best model as:
 cnn_pneumonia_best.h5 (stored locally only)
 ---
 
+# 📈 Evaluate the Model
+```bash
+python src/evaluate_cnn_metrics.py
+```
+Outputs:
+
+Confusion Matrix
+
+Precision / Recall / F1-score
+
+Saved under results/
+
+---
+#🚀 Future Enhancements (Important)
+ ResNet50 Transfer Learning
+
+EfficientNet / DenseNet versions
+
+Grad-CAM Explainability
+
+Deploy via Flask / FastAPI
+
+Convert to TFLite for mobile deployment
+---
+#👨‍💻 Author
+Mohamed Ellabban
+Machine Learning Engineer — Deep Learning & Medical AI
+
+GitHub: https://github.com/omarhatem44
+
+Email: mohamed.ellabban@outlook.com
+---
+
+
+
 
 
