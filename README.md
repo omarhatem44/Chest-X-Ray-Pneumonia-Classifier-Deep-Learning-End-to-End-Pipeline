@@ -68,7 +68,7 @@ pip install -r requirements.txt
 python src/train_cnn_pneumonia.py
 ```
 
-This script:
+###This script:
 
 - Loads dataset
 
@@ -85,7 +85,7 @@ cnn_pneumonia_best.h5 (stored locally only)
 ```bash
 python src/evaluate_cnn_metrics.py
 ```
-Outputs:
+###Outputs:
 
 - Confusion Matrix
 
