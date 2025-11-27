@@ -1,57 +1,63 @@
-##  Deep Learning End-to-End Pipeline (Custom CNN)
+# 🧠 Chest X-Ray Pneumonia Classifier  
+### ⚡ Deep Learning End-to-End Pipeline (Custom CNN)
 
-A complete **medical imaging deep learning project** that detects **Pneumonia** vs **Normal** from **Chest X-ray images** using a custom-designed **Convolutional Neural Network (CNN)**.  
-The project demonstrates strong ML engineering practices: preprocessing, augmentation, class balancing, modular scripts, visualization, and evaluation.
+A complete **medical imaging deep learning project** for binary classification (**Pneumonia vs Normal**) using a custom-designed **Convolutional Neural Network (CNN)**.
+
+The project demonstrates strong ML engineering practices:  
+➡️ Preprocessing  
+➡️ Data augmentation  
+➡️ Class balancing  
+➡️ Modular training scripts  
+➡️ Visualization + Evaluation metrics  
 
 ---
 
-#  Key Features (Important)
-- **Full ML pipeline (EDA → Preprocessing → Training → Evaluation)**  
-- **Class imbalance handling** (Augmentation ONLY for NORMAL)  
+## ⭐ Key Features (Important)
+- **Full ML pipeline** (EDA → Preprocessing → Training → Evaluation)  
+- **Handles class imbalance** (Augmentation ONLY for NORMAL)  
 - **Custom CNN baseline model**  
 - **Confusion Matrix + Precision/Recall/F1-score**  
 - **Production-style project structure**  
-- **Clear, modular, documented code**  
+- **Clean, modular, documented code**
 
 ---
 
-# **Model Performance (Important)**
+## 📊 Model Performance (Important)
 
 | Metric | Value |
 |--------|--------|
-|  **Test Accuracy** | **85.7%** |
+| **Test Accuracy** | **85.7%** |
 | NORMAL – Precision | 0.75 |
 | NORMAL – Recall | 0.92 |
 | PNEUMONIA – Precision | 0.94 |
 | PNEUMONIA – Recall | 0.81 |
 
-### **Confusion Matrix**
-| 216 | 18|
-| 71 | 319|
-
-
-
+### 🔍 Confusion Matrix  
+|      | Pred Normal | Pred Pneumonia |
+|------|-------------|----------------|
+| **Actual Normal** | 216 | 18 |
+| **Actual Pneumonia** | 71 | 319 |
 
 ---
 
-# **Project Structure (Important)**
+## 📁 Project Structure (Important)
 ```bash
-
 pneumonia-xray-classifier/
 │
-├── src/ # All training & evaluation scripts
-│ ├── train_cnn_pneumonia.py
-│ ├── evaluate_cnn_metrics.py
-│ ├── augmentation_normal_only.py
-│ ├── eda_pneumonia.py
+├── src/                       # All training & evaluation scripts
+│   ├── train_cnn_pneumonia.py
+│   ├── evaluate_cnn_metrics.py
+│   ├── augmentation_normal_only.py
+│   ├── eda_pneumonia.py
 │
-├── results/ # Model evaluation outputs
-│ └── confusion_matrix_cnn.png
+├── results/                   # Model evaluation outputs
+│   └── confusion_matrix_cnn.png
 │
-├── models/ # (Empty – weights not uploaded)
+├── models/                    # (Empty – weights not uploaded)
 │
 ├── requirements.txt
 └── README.md
+
 ```
 
 ---
