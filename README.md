@@ -26,7 +26,6 @@ The project demonstrates strong ML engineering practices: preprocessing, augment
 | PNEUMONIA – Recall | 0.81 |
 
 ### **Confusion Matrix**
-|--------- | -------|
 | 216 | 18|
 | 71 | 319|
 
