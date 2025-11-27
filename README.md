@@ -1,18 +1,18 @@
-# 🧠 Chest X-Ray Pneumonia Classifier (Deep Learning)
-### ⚡ Deep Learning End-to-End Pipeline (Custom CNN)
+#  Chest X-Ray Pneumonia Classifier (Deep Learning)
+###  Deep Learning End-to-End Pipeline (Custom CNN)
 
 A complete **medical imaging deep learning project** for binary classification (**Pneumonia vs Normal**) using a custom-designed **Convolutional Neural Network (CNN)**.
 
 The project demonstrates strong ML engineering practices:  
-➡️ Preprocessing  
-➡️ Data augmentation  
-➡️ Class balancing  
-➡️ Modular training scripts  
-➡️ Visualization + Evaluation metrics  
+- Preprocessing  
+- Data augmentation  
+- Class balancing  
+- Modular training scripts  
+- Visualization + Evaluation metrics  
 
 ---
 
-## ⭐ Key Features (Important)
+##  Key Features (Important)
 - **Full ML pipeline** (EDA → Preprocessing → Training → Evaluation)  
 - **Handles class imbalance** (Augmentation ONLY for NORMAL)  
 - **Custom CNN baseline model**  
@@ -22,7 +22,7 @@ The project demonstrates strong ML engineering practices:
 
 ---
 
-## 📊 Model Performance (Important)
+##  Model Performance (Important)
 
 | Metric | Value |
 |--------|--------|
@@ -39,13 +39,13 @@ The project demonstrates strong ML engineering practices:
 | **Actual Pneumonia** | 71 | 319 |
 
 ---
-### 📉 Confusion Matrix (Visualization)
+###  Confusion Matrix (Visualization)
 
 <p align="center">
   <img src="results/confusion_matrix_cnn.png" width="450">
 </p>
 
-## 📁 Project Structure (Important)
+##  Project Structure (Important)
 ```bash
 pneumonia-xray-classifier/
 │
@@ -66,14 +66,14 @@ pneumonia-xray-classifier/
 
 ---
 
-# ⚙️ Installation
+#  Installation
 
 ```bash
 pip install -r requirements.txt
 ```
 ---
 
-# 🏋️‍♂️ Train the Model
+#  Train the Model
 ```bash
 python src/train_cnn_pneumonia.py
 ```
@@ -91,7 +91,7 @@ python src/train_cnn_pneumonia.py
 cnn_pneumonia_best.h5 (stored locally only)
 ---
 
-# 📈 Evaluate the Model
+#  Evaluate the Model
 ```bash
 python src/evaluate_cnn_metrics.py
 ```
@@ -104,7 +104,7 @@ python src/evaluate_cnn_metrics.py
 - Saved under results/
 
 ---
-# 🚀 Future Enhancements (Important)
+#  Future Enhancements (Important)
      
 - ResNet50 Transfer Learning
     
@@ -116,11 +116,11 @@ python src/evaluate_cnn_metrics.py
       
 ---
 
-## 👨‍💻 Author  
+##  Author  
 **Omar Hatem Ellaban**  
 Machine Learning & Deep Learning Engineer  
 
-📧 Email: **omarhatemmoahemd@gmail.com**  
+ Email: **omarhatemmoahemd@gmail.com**  
 
 Feel free to fork, improve, or contact for collaborations!
 
