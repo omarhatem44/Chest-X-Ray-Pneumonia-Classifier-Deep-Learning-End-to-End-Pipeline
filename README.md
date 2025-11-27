@@ -59,6 +59,23 @@ pneumonia-xray-classifier/
 
 ```bash
 pip install -r requirements.txt
+```
+
+# 🏋️‍♂️ Train the Model
+python src/train_cnn_pneumonia.py
+
+
+This script:
+
+Loads dataset
+
+Applies augmentation to NORMAL
+
+Trains CNN
+
+Saves best model as:
+
+cnn_pneumonia_best.h5 (stored locally only)
 
 
 
