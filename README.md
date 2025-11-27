@@ -39,6 +39,11 @@ The project demonstrates strong ML engineering practices:
 | **Actual Pneumonia** | 71 | 319 |
 
 ---
+### 📉 Confusion Matrix (Visualization)
+
+<p align="center">
+  <img src="results/confusion_matrix_cnn.png" width="450">
+</p>
 
 ## 📁 Project Structure (Important)
 ```bash
