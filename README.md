@@ -120,9 +120,7 @@ python src/evaluate_cnn_metrics.py
 **Omar Hatem Ellaban**  
 Machine Learning & Deep Learning Engineer  
 
-📧 Email: **mohamed.ellabban@outlook.com**  
-🐙 GitHub: **https://github.com/omarhatem44**  
-
+📧 Email: **omarhatemmoahemd@gmail.com**  
 
 ---
 
