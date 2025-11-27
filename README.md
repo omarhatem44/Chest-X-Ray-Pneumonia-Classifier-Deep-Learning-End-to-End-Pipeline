@@ -1,12 +1,11 @@
-# 🧠 Chest X-Ray Pneumonia Classifier  
-## ⚡ Deep Learning End-to-End Pipeline (Custom CNN)
+##  Deep Learning End-to-End Pipeline (Custom CNN)
 
 A complete **medical imaging deep learning project** that detects **Pneumonia** vs **Normal** from **Chest X-ray images** using a custom-designed **Convolutional Neural Network (CNN)**.  
 The project demonstrates strong ML engineering practices: preprocessing, augmentation, class balancing, modular scripts, visualization, and evaluation.
 
 ---
 
-# ⭐ Key Features (Important)
+#  Key Features (Important)
 - **Full ML pipeline (EDA → Preprocessing → Training → Evaluation)**  
 - **Class imbalance handling** (Augmentation ONLY for NORMAL)  
 - **Custom CNN baseline model**  
@@ -16,11 +15,11 @@ The project demonstrates strong ML engineering practices: preprocessing, augment
 
 ---
 
-# 📊 **Model Performance (Important)**
+# **Model Performance (Important)**
 
 | Metric | Value |
 |--------|--------|
-| 🎯 **Test Accuracy** | **85.7%** |
+|  **Test Accuracy** | **85.7%** |
 | NORMAL – Precision | 0.75 |
 | NORMAL – Recall | 0.92 |
 | PNEUMONIA – Precision | 0.94 |
@@ -35,7 +34,7 @@ The project demonstrates strong ML engineering practices: preprocessing, augment
 
 ---
 
-# 📁 **Project Structure (Important)**
+# **Project Structure (Important)**
 ```bash
 
 pneumonia-xray-classifier/
@@ -64,38 +63,38 @@ pip install -r requirements.txt
 ```
 ---
 
-# 🏋️‍♂️ Train the Model
+#  Train the Model
 ```bash
 python src/train_cnn_pneumonia.py
 ```
 
 This script:
 
-Loads dataset
+- Loads dataset
 
-Applies augmentation to NORMAL
+- Applies augmentation to NORMAL
 
-Trains CNN
+- Trains CNN
 
-Saves best model as:
+- Saves best model as:
 
 cnn_pneumonia_best.h5 (stored locally only)
 ---
 
-# 📈 Evaluate the Model
+#  Evaluate the Model
 ```bash
 python src/evaluate_cnn_metrics.py
 ```
 Outputs:
 
-Confusion Matrix
+- Confusion Matrix
 
-Precision / Recall / F1-score
+- Precision / Recall / F1-score
 
-Saved under results/
+- Saved under results/
 
 ---
-# 🚀 Future Enhancements (Important)
+#  Future Enhancements (Important)
      
 - ResNet50 Transfer Learning
     
@@ -107,7 +106,7 @@ Saved under results/
       
 ---
 
-# 👨‍💻 Author
+#  Author
 
 Omar Hatem Ellaban | Machine Learning & Deep Learning Engineer
 Feel free to fork, improve, or contact for collaborations!
