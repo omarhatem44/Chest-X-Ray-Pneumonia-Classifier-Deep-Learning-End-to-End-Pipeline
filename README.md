@@ -60,7 +60,6 @@ pneumonia-xray-classifier/
 │
 ├── models/                    # (Empty – weights not uploaded)
 │
-├── requirements.txt
 └── README.md
 
 ```
