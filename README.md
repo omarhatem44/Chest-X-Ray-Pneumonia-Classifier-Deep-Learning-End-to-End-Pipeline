@@ -122,6 +122,10 @@ Machine Learning & Deep Learning Engineer
 
 📧 Email: **omarhatemmoahemd@gmail.com**  
 
+Feel free to fork, improve, or contact for collaborations!
+
+
+
 ---
 
 
